@@ -1,0 +1,38 @@
+{
+  "name": "unicode-canonical-property-names",
+  "version": "0.0.0",
+  "description": "The set of canonical property names in Unicode.",
+  "homepage": "https://github.com/mathiasbynens/unicode-canonical-property-names",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "LICENSE-MIT.txt",
+    "index.js"
+  ],
+  "keywords": [
+    "unicode",
+    "unicode properties"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mathiasbynens/unicode-canonical-property-names.git"
+  },
+  "bugs": "https://github.com/mathiasbynens/unicode-canonical-property-names/issues",
+  "devDependencies": {
+    "ava": "*",
+    "jsesc": "^2.2.0",
+    "unicode-9.0.0": "^0.0.1",
+    "unicode-property-aliases": "^1.1.0"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "ava ./tests"
+  }
+}
