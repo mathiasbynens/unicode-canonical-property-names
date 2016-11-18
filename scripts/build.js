@@ -1,6 +1,7 @@
 'use strict';
 
 const binaryProperties = require('unicode-9.0.0').Binary_Property;
+const binaryEmojiProperties = require('unicode-tr51');
 const propertyAliases = require('unicode-property-aliases');
 const jsesc = require('jsesc');
 
@@ -8,6 +9,7 @@ const jsesc = require('jsesc');
 // binary properties that aren’t mentioned in `PropertyValueAliases.txt`.
 const canonicalPropertyNames = new Set([
 	...binaryProperties,
+	...binaryEmojiProperties,
 	...propertyAliases.values()
 ]);
 

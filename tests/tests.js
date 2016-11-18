@@ -12,4 +12,6 @@ test(t => {
 	t.false(canonicalProperties.has('blk'));
 	t.true(canonicalProperties.has('ISO_Comment'));
 	t.false(canonicalProperties.has('isc'));
+	t.true(canonicalProperties.has('Emoji_Modifier'));
+	t.false(canonicalProperties.has('emojimodifier'));
 });
