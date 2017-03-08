@@ -14,4 +14,6 @@ test(t => {
 	t.false(canonicalProperties.has('isc'));
 	t.true(canonicalProperties.has('Emoji_Modifier'));
 	t.false(canonicalProperties.has('emojimodifier'));
+	t.true(canonicalProperties.has('Emoji_Component'));
+	t.false(canonicalProperties.has('emojicomponent'));
 });
