@@ -1,6 +1,6 @@
 {
   "name": "unicode-canonical-property-names",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The set of canonical property names in Unicode.",
   "homepage": "https://github.com/mathiasbynens/unicode-canonical-property-names",
   "main": "index.js",
