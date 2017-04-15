@@ -1,6 +1,8 @@
 # unicode-canonical-property-names [![Build status](https://travis-ci.org/mathiasbynens/unicode-canonical-property-names.svg?branch=master)](https://travis-ci.org/mathiasbynens/unicode-canonical-property-names)
 
-_unicode-canonical-property-names_ exports the set of canonical Unicode property names that are supported in [ECMAScript RegExp property escapes](https://github.com/tc39/proposal-regexp-unicode-property-escapes).
+_unicode-canonical-property-names_ exports the set of canonical property names in Unicode.
+
+For the subset used by [Unicode RegExp property escapes in ECMAScript](https://github.com/tc39/proposal-regexp-unicode-property-escapes), [see _unicode-canonical-property-names-ecmascript_](https://github.com/mathiasbynens/unicode-canonical-property-names-ecmascript).
 
 ## Installation
 
@@ -19,9 +21,9 @@ const properties = require('unicode-canonical-property-names');
 ## Example
 
 ```js
-properties.has('ID_Start');
+properties.has('ISO_Comment');
 // → true
-properties.has('IDS');
+properties.has('isc');
 // → false
 ```
 
