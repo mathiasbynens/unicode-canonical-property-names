@@ -2,6 +2,14 @@ import test from 'ava';
 import canonicalProperties from '../index.js';
 
 test(t => {
+	// Test non-binary properties.
+	t.true(canonicalProperties.has('General_Category'));
+	t.false(canonicalProperties.has('gc'));
+	t.true(canonicalProperties.has('Script'));
+	t.false(canonicalProperties.has('sc'));
+	t.true(canonicalProperties.has('Script_Extensions'));
+	t.false(canonicalProperties.has('scx'));
+	// Test binary properties.
 	t.true(canonicalProperties.has('ASCII'));
 	t.false(canonicalProperties.has('ascii'));
 	t.true(canonicalProperties.has('Any'));

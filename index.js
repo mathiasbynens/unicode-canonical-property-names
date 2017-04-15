@@ -1,4 +1,9 @@
 module.exports = new Set([
+	// Non-binary properties:
+	'General_Category',
+	'Script',
+	'Script_Extensions',
+	// Binary properties:
 	'Alphabetic',
 	'Any',
 	'ASCII',
