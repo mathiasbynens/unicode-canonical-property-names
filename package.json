@@ -26,14 +26,9 @@
   },
   "bugs": "https://github.com/mathiasbynens/unicode-canonical-property-names/issues",
   "devDependencies": {
-    "ava": "*",
-    "jsesc": "^2.4.0",
-    "unicode-9.0.0": "^0.7.0",
-    "unicode-property-aliases": "^1.1.1",
-    "unicode-tr51": "^8.0.1"
+    "ava": "*"
   },
   "scripts": {
-    "build": "node scripts/build.js",
     "test": "ava ./tests"
   }
 }

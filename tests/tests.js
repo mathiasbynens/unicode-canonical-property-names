@@ -8,10 +8,8 @@ test(t => {
 	t.false(canonicalProperties.has('any'));
 	t.true(canonicalProperties.has('Assigned'));
 	t.false(canonicalProperties.has('assigned'));
-	t.true(canonicalProperties.has('Block'));
-	t.false(canonicalProperties.has('blk'));
-	t.true(canonicalProperties.has('ISO_Comment'));
-	t.false(canonicalProperties.has('isc'));
+	t.true(canonicalProperties.has('ID_Start'));
+	t.false(canonicalProperties.has('IDS'));
 	t.true(canonicalProperties.has('Emoji_Modifier'));
 	t.false(canonicalProperties.has('emojimodifier'));
 	t.true(canonicalProperties.has('Emoji_Component'));
