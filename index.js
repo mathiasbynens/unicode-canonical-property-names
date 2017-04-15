@@ -29,7 +29,6 @@ module.exports = new Set([
 	'Emoji_Modifier_Base',
 	'Emoji_Presentation',
 	'Extender',
-	'Full_Composition_Exclusion',
 	'Grapheme_Base',
 	'Grapheme_Extend',
 	'Hex_Digit',
